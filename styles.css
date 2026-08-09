@@ -1031,7 +1031,7 @@ code, pre {
 .project-card-container {
     position: relative;
     width: 100%;
-    min-height: 480px;
+    min-height: 520px;
 }
 
 .project-card {
@@ -1039,7 +1039,7 @@ code, pre {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 480px;
+    min-height: 520px;
     height: 100%;
 }
 
@@ -1047,7 +1047,7 @@ code, pre {
     position: relative;
     width: 100%;
     height: 100%;
-    min-height: 480px;
+    min-height: 520px;
 }
 
 .project-card-front,
@@ -1845,6 +1845,21 @@ code, pre {
     .role-meta {
         align-items: flex-start;
     }
+
+    .projects-grid {
+        gap: 2.5rem;
+    }
+
+    .project-card-container,
+    .project-card-flipper,
+    .project-card {
+        min-height: 560px;
+    }
+
+    .project-card-front,
+    .project-card-back {
+        padding: 1.4rem;
+    }
 }
 
 /* Extra Small Screens (Mobile Phones < 480px) */
@@ -1882,6 +1897,35 @@ code, pre {
 
     .skills-grid, .projects-grid, .awards-grid {
         grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        gap: 3rem;
+    }
+
+    .project-card-container,
+    .project-card-flipper,
+    .project-card {
+        min-height: 610px;
+    }
+
+    .project-card-front,
+    .project-card-back {
+        padding: 1.2rem;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .project-desc {
+        font-size: 0.88rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .project-features {
+        margin-bottom: 0.8rem;
     }
 
     .pillar-item {
