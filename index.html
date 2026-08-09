@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thuvaraga Pandi - SDET 1 & Automation Test Engineer Portfolio. Expertise in Selenium, Java, TestNG, Postman API Testing, AI Agent Development, and Python QA Tooling.">
+    <title>Thuvaraga Pandi | SDET 1 & Automation Engineer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Animated Particles Mesh -->
+    <div class="bg-glow-container">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-code">&lt;TP /&gt;</span>
+                <span class="logo-name">Thuvaraga Pandi</span>
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#awards" class="nav-item">Awards</a>
+                <a href="#contact" class="nav-item btn-contact-nav">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-status">
+                        <span class="pulse-dot"></span>
+                        <span class="badge-text">SDET 1 @ Deloitte USI &bull; AI & Test Automation</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Thuvaraga Pandi</span>
+                        <br>Architecting Quality through <span class="typewriter-text" id="typewriter">Automation</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Specialized <strong>Software Development Engineer in Test (SDET 1)</strong> with expertise in 
+                        Selenium WebDriver, Java, TestNG, Postman API Testing, and <strong>AI Agent / LLM Development</strong>. 
+                        Creator of custom Python productivity suites like <code>SnipToDoc</code> & Jira Automation Reporters.
+                    </p>
+
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years SDET Experience</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">65%</span>
+                            <span class="stat-label">Regression Cycle Speedup</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">Spot Award</span>
+                            <span class="stat-label">Spot Award Excellence</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#experience" class="btn btn-primary">
+                            <span>Explore Experience</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                        <a href="mailto:thuvarak3345@gmail.com" class="btn btn-secondary">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Email Me</span>
+                        </a>
+                    </div>
+
+                    <div class="social-links-bar">
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" title="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:thuvarak3345@gmail.com" class="social-link" title="Email Direct">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener" class="social-link" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <span class="location-tag"><i class="fa-solid fa-location-dot"></i> Bengaluru, India</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <!-- Elegant Profile Photo Container -->
+                    <div class="profile-card-wrapper">
+                        <div class="profile-avatar-frame">
+                            <img src="profile.png" alt="Thuvaraga Pandi - SDET 1" class="profile-img">
+                            <div class="avatar-badge"><i class="fa-solid fa-circle-check"></i> SDET 1</div>
+                        </div>
+                    </div>
+
+                    <!-- SDET Engineering Pillars Card -->
+                    <div class="hero-pillars-card glass-card">
+                        <div class="pillars-header">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <span>SDET Engineering Pillars</span>
+                        </div>
+                        <div class="pillar-item">
+                            <div class="pillar-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+                            <div class="pillar-text">
+                                <strong>Test Automation Frameworks</strong>
+                                <span>Selenium WebDriver &bull; Java &bull; TestNG &bull; Page Object Model</span>
+                            </div>
+                        </div>
+                        <div class="pillar-item">
+                            <div class="pillar-icon"><i class="fa-solid fa-robot"></i></div>
+                            <div class="pillar-text">
+                                <strong>AI Agent & LLM Integration</strong>
+                                <span>Agent Skills &bull; Markdown KB &bull; Prompt Engineering &bull; CLI Integration</span>
+                            </div>
+                        </div>
+                        <div class="pillar-item">
+                            <div class="pillar-icon"><i class="fa-solid fa-code"></i></div>
+                            <div class="pillar-text">
+                                <strong>Development</strong>
+                                <span>SnipToDoc Utility &bull; Jira REST API Automation &bull; PyInstaller EXEs</span>
+                            </div>
+                        </div>
+                        <div class="pillar-item">
+                            <div class="pillar-icon"><i class="fa-solid fa-network-wired"></i></div>
+                            <div class="pillar-text">
+                                <strong>API & CI/CD Pipelines</strong>
+                                <span>Postman API Testing &bull; Jenkins Nightly Builds &bull; Selenium Grid</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Summary / About -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">OVERVIEW</span>
+                    <h2 class="section-title">Professional Summary</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card highlight-card">
+                        <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Test Automation & Quality Engineering</h3>
+                        <p>
+                            Dedicated SDET 1 with hands-on expertise in building scalable, maintainable Page Object Model (POM) test automation frameworks using Selenium WebDriver, Java, TestNG, and Cucumber for UI, functional, regression, and smoke suites.
+                        </p>
+                    </div>
+
+                    <div class="about-card highlight-card">
+                        <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h3>AI Agent & LLM Tooling</h3>
+                        <p>
+                            Pioneering AI-assisted testing workflows by building knowledge bases, Markdown skill sets, custom instructions, and CLI tool bindings for internal AI productivity agents using Anthropic Claude & GitHub Copilot.
+                        </p>
+                    </div>
+
+                    <div class="about-card highlight-card">
+                        <div class="card-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <h3>QA Productivity & Desktop Tooling</h3>
+                        <p>
+                            Creator of <strong>SnipToDoc</strong> (automated screen capture & Word doc generator) and <strong>Jira Automation Reporting Tool</strong> (Python REST API metric generator) packaged into Windows EXEs via PyInstaller.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Timeline -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">CAREER JOURNEY</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- Timeline Item 1: Deloitte USI -->
+                    <div class="timeline-item featured-timeline">
+                        <div class="timeline-dot">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <span class="company-badge current-badge">Current Role</span>
+                                    <h3 class="role-title">SDET 1 — Automation Test Engineer</h3>
+                                    <h4 class="company-name"><i class="fa-solid fa-building"></i> Deloitte USI</h4>
+                                </div>
+                                <div class="role-meta">
+                                    <span class="role-date"><i class="fa-regular fa-calendar-days"></i> Dec 2025 – Present</span>
+                                    <span class="role-location"><i class="fa-solid fa-location-dot"></i> Bengaluru, India</span>
+                                </div>
+                            </div>
+
+                            <div class="experience-highlights">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Developed and maintained <strong>Selenium WebDriver automation using Java, TestNG, Cucumber, and POM</strong> for functional, regression, and smoke testing.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Performed <strong>API testing using Postman</strong> and supported defect analysis, retesting, and regression validation through Jira.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Worked with <strong>LLM-based applications and AI agent development</strong>, contributing to the creation and enhancement of AI agents for internal productivity and automation use cases.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Developed and maintained knowledge bases, Markdown (MD) files, agent skills, instructions, and configurations to improve agent behavior and task execution.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Integrated <strong>CLI-based tools and commands with AI agents</strong>, enabling agents to interact seamlessly with development and automation workflows.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Worked on updating and optimizing agent skills and knowledge sources based on evolving requirements and complex QA use cases.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Developed <strong>SnipToDoc</strong>, a Python desktop utility that automates screenshot capture and Word document generation for manual testing and defect retesting.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Built a <strong>Jira Automation Reporting Tool</strong> using Python and Jira REST APIs to automatically retrieve automation execution metrics and generate weekly/monthly reports.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Leveraged <strong>AI-assisted development using GitHub Copilot and Anthropic Claude</strong> to accelerate Python tool and agent development, improve code quality, and reduce development effort.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check-double highlight-icon"></i>
+                                        Packaged Python utilities into standalone <strong>Windows executables (.exe) using PyInstaller</strong> for seamless deployment across QA teams.
+                                    </li>
+                                    <li class="spotlight-li">
+                                        <i class="fa-solid fa-trophy spotlight-icon"></i>
+                                        <strong>Received Deloitte Spot Award</strong> for developing productivity tools that automated QA documentation and reporting processes.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-tags">
+                                <span class="tag">Selenium</span>
+                                <span class="tag">Java</span>
+                                <span class="tag">TestNG</span>
+                                <span class="tag">Cucumber</span>
+                                <span class="tag">POM Architecture</span>
+                                <span class="tag">Postman API</span>
+                                <span class="tag">AI Agent Skills</span>
+                                <span class="tag">Markdown KB</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Jira REST API</span>
+                                <span class="tag">PyInstaller</span>
+                                <span class="tag">GitHub Copilot</span>
+                                <span class="tag">Claude AI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2: Cognizant -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">Programmer Analyst (Automation Tester / SDET)</h3>
+                                    <h4 class="company-name"><i class="fa-solid fa-building"></i> Cognizant Technology Solutions</h4>
+                                </div>
+                                <div class="role-meta">
+                                    <span class="role-date"><i class="fa-regular fa-calendar-days"></i> Dec 2023 – Nov 2025</span>
+                                    <span class="role-location"><i class="fa-solid fa-location-dot"></i> Coimbatore, India</span>
+                                </div>
+                            </div>
+
+                            <div class="experience-highlights">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-check highlight-icon"></i>
+                                        Designed and implemented a scalable <strong>Selenium-Java-TestNG automation framework</strong>, improving regression cycle speed by <strong>65%</strong>.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check highlight-icon"></i>
+                                        Integrated Rally and JIRA with Jenkins to automate daily defect report generation, increasing team visibility and efficiency.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check highlight-icon"></i>
+                                        Wrote reusable, modular test scripts using Page Object Model (POM) and implemented data-driven testing strategies.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check highlight-icon"></i>
+                                        Collaborated with developers and product owners in daily stand-ups and sprint planning for test case alignment.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check highlight-icon"></i>
+                                        Performed API testing using Postman and automated backend validations with RESTful assertions.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check highlight-icon"></i>
+                                        Maintained cross-browser test suites with <strong>Selenium Grid</strong>, validating UI consistency across Chrome, Firefox, and Edge.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check highlight-icon"></i>
+                                        Led internal knowledge-sharing sessions on Selenium and automation best practices, mentoring 3+ junior testers.
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-check highlight-icon"></i>
+                                        Enhanced CI/CD pipeline with <strong>Jenkins integration</strong> for automated nightly regression runs and immediate defect feedback.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-tags">
+                                <span class="tag">Selenium WebDriver</span>
+                                <span class="tag">Java</span>
+                                <span class="tag">TestNG</span>
+                                <span class="tag">Jenkins CI/CD</span>
+                                <span class="tag">Selenium Grid</span>
+                                <span class="tag">Page Object Model</span>
+                                <span class="tag">Postman</span>
+                                <span class="tag">Rally & Jira</span>
+                                <span class="tag">Data-Driven Testing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Competencies & Skills Grid -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">TECHNICAL EXPERTISE</span>
+                    <h2 class="section-title">Core Competencies & Skills</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <!-- Skill Filter Category Tabs -->
+                <div class="skill-filters">
+                    <button class="filter-btn active" data-filter="all">All Skills</button>
+                    <button class="filter-btn" data-filter="automation">Automation & QA</button>
+                    <button class="filter-btn" data-filter="ai">AI Agent & LLM Tooling</button>
+                    <button class="filter-btn" data-filter="lang">Languages & APIs</button>
+                    <button class="filter-btn" data-filter="tools">DevOps & Tools</button>
+                </div>
+
+                <div class="skills-grid" id="skills-grid">
+
+                    <div class="skill-card" data-category="automation">
+                        <div class="skill-icon"><i class="fa-solid fa-vial"></i></div>
+                        <h3>Selenium WebDriver</h3>
+                        <p>UI automation, dynamic element wait strategies, cross-browser DOM interactions.</p>
+                        <span class="skill-category-tag">Automation</span>
+                    </div>
+
+                    <div class="skill-card" data-category="lang">
+                        <div class="skill-icon"><i class="fa-brands fa-java"></i></div>
+                        <h3>Java</h3>
+                        <p>OOP design patterns, collections framework, exception handling in automation framework design.</p>
+                        <span class="skill-category-tag">Language</span>
+                    </div>
+
+                    <div class="skill-card" data-category="automation">
+                        <div class="skill-icon"><i class="fa-solid fa-cubes"></i></div>
+                        <h3>TestNG & Cucumber</h3>
+                        <p>Data-driven testing, BDD feature files, parallel execution, suite annotations, extent reports.</p>
+                        <span class="skill-category-tag">Automation</span>
+                    </div>
+
+                    <div class="skill-card" data-category="ai">
+                        <div class="skill-icon"><i class="fa-solid fa-robot"></i></div>
+                        <h3>AI Agent Development</h3>
+                        <p>Custom agent instructions, Markdown knowledge bases, YAML configs, prompt engineering (Copilot & Claude).</p>
+                        <span class="skill-category-tag">AI Engineering</span>
+                    </div>
+
+                    <div class="skill-card" data-category="ai">
+                        <div class="skill-icon"><i class="fa-solid fa-terminal"></i></div>
+                        <h3>CLI & Agent Tooling Integration</h3>
+                        <p>Integrating CLI commands with AI agents for automated documentation, execution, and defect analysis.</p>
+                        <span class="skill-category-tag">AI Engineering</span>
+                    </div>
+
+                    <div class="skill-card" data-category="lang">
+                        <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                        <h3>Python Development</h3>
+                        <p>Desktop utilities, REST API scripts, pandas data processing, GUI tools (Tkinter), PyInstaller EXEs.</p>
+                        <span class="skill-category-tag">Language</span>
+                    </div>
+
+                    <div class="skill-card" data-category="lang">
+                        <div class="skill-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Postman & REST API Testing</h3>
+                        <p>Endpoint validation, JSON assertion scripts, collection runner, authorization headers, environment variables.</p>
+                        <span class="skill-category-tag">API Testing</span>
+                    </div>
+
+                    <div class="skill-card" data-category="tools">
+                        <div class="skill-icon"><i class="fa-brands fa-jenkins"></i></div>
+                        <h3>Jenkins CI/CD</h3>
+                        <p>Nightly build triggers, pipeline configurations, automated regression runs, build status alerts.</p>
+                        <span class="skill-category-tag">DevOps</span>
+                    </div>
+
+                    <div class="skill-card" data-category="tools">
+                        <div class="skill-icon"><i class="fa-brands fa-jira"></i></div>
+                        <h3>Jira REST API & Defect Retesting</h3>
+                        <p>Automated metric fetching, ticket logging, defect lifecycle management, custom reporting dashboards.</p>
+                        <span class="skill-category-tag">Management</span>
+                    </div>
+
+                    <div class="skill-card" data-category="automation">
+                        <div class="skill-icon"><i class="fa-solid fa-sitemap"></i></div>
+                        <h3>Page Object Model (POM)</h3>
+                        <p>Modular page object classes, web element encapsulation, clean architecture, low maintenance overhead.</p>
+                        <span class="skill-category-tag">Architecture</span>
+                    </div>
+
+                    <div class="skill-card" data-category="tools">
+                        <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                        <h3>Git & Version Control</h3>
+                        <p>Branching strategies, pull requests, code reviews, merger conflict resolution, repository management.</p>
+                        <span class="skill-category-tag">Tools</span>
+                    </div>
+
+                    <div class="skill-card" data-category="automation">
+                        <div class="skill-icon"><i class="fa-solid fa-sliders"></i></div>
+                        <h3>Selenium Grid Cross-Browser</h3>
+                        <p>Parallel testing across Chrome, Firefox, Edge node browsers, Hub-Node grid setup.</p>
+                        <span class="skill-category-tag">Automation</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">PROJECTS & PRODUCTIVITY UTILITIES</span>
+                    <h2 class="section-title">Featured Innovations</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1: SnipToDoc (Interactive Flip Card) -->
+                    <div class="project-card-container">
+                        <div class="project-card-flipper" id="flip-card-1">
+                            <!-- FRONT -->
+                            <div class="project-card-front glass-card">
+                                <div>
+                                    <div class="project-header">
+                                        <span class="project-type"><i class="fa-solid fa-desktop"></i> Python Desktop App</span>
+                                        <span class="project-badge">Award Winner</span>
+                                    </div>
+                                    <h3 class="project-title">SnipToDoc - Automated QA Evidence Generator</h3>
+                                    <p class="project-desc">
+                                        A custom Python desktop utility designed to streamline manual testing screenshot evidence capture and instantly format them into standardized Microsoft Word (.docx) defect retesting documents. Built to eliminate redundant QA documentation overhead.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li><i class="fa-solid fa-check"></i> Instant screen snip & crop listener</li>
+                                        <li><i class="fa-solid fa-check"></i> Automated Word template rendering with metadata & step numbers</li>
+                                        <li><i class="fa-solid fa-check"></i> Standalone Windows Executable (.exe) packaged with PyInstaller</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="project-tech">
+                                        <span>Python</span>
+                                        <span>python-docx</span>
+                                        <span>Tkinter</span>
+                                        <span>PyInstaller</span>
+                                        <span>Pillow</span>
+                                    </div>
+                                    <div class="card-flip-btn-box">
+                                        <button class="btn btn-sm btn-outline btn-block" onclick="toggleSnipCardFlip(event)">
+                                            <i class="fa-solid fa-rotate"></i> Explore Tool UI Preview <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- BACK -->
+                            <div class="project-card-back glass-card">
+                                <div class="back-header">
+                                    <span class="back-title"><i class="fa-solid fa-feather-pointed"></i> SnipToDoc Desktop GUI Preview</span>
+                                    <button class="btn-flip-back" onclick="toggleSnipCardFlip(event)" title="Flip Back to Overview"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <div class="back-content">
+                                    <div class="mini-win-frame">
+                                        <div class="mini-win-header">
+                                            <span class="mini-win-title"><i class="fa-solid fa-desktop"></i> SnipToDoc v2.1</span>
+                                            <div class="mini-win-dots"><span></span><span></span><span></span></div>
+                                        </div>
+                                        <div class="mini-win-body">
+                                            <div class="mini-win-btn-row">
+                                                <span class="mini-win-btn"><i class="fa-solid fa-expand"></i> Capture Full Screen</span>
+                                                <span class="mini-win-btn"><i class="fa-solid fa-crop-simple"></i> Capture Region</span>
+                                            </div>
+                                            <div class="mini-win-box">
+                                                <span class="mini-box-label">Options</span>
+                                                <div class="mini-opt-row"><i class="fa-solid fa-square-check"></i> Ask for comments</div>
+                                                <div class="mini-path-row">Export path: <code>C:\Users\QA_Automation\Documents</code></div>
+                                            </div>
+                                            <div class="mini-win-box">
+                                                <span class="mini-box-label">Evidence Queue (.docx)</span>
+                                                <div class="mini-log-item"><i class="fa-solid fa-file-image"></i> Step_1_Login_Validation.png</div>
+                                                <div class="mini-log-item"><i class="fa-solid fa-file-image"></i> Step_2_API_Response.png</div>
+                                            </div>
+                                            <button class="mini-btn-docx" onclick="simulateGenerateWordDoc(event)">
+                                                <i class="fa-solid fa-file-word"></i> Generate Word Document (.docx)
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-flip-btn-box">
+                                    <button class="btn btn-sm btn-secondary btn-block" onclick="toggleSnipCardFlip(event)">
+                                        <i class="fa-solid fa-rotate-left"></i> Flip Back to Overview
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Jira Automation Reporting Tool (Standard Static Card) -->
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <span class="project-type"><i class="fa-solid fa-chart-line"></i> REST API & Reporting</span>
+                            <span class="project-badge">QA Productivity Tool</span>
+                        </div>
+                        <h3 class="project-title">Jira Automation Reporting Tool</h3>
+                        <p class="project-desc">
+                            Python-driven automation utility that connects to Jira REST APIs to extract regression execution metrics, defect resolution rates, and ticket states to generate automated weekly & monthly QA dashboards.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fa-solid fa-check"></i> Real-time Jira REST API endpoint query integration</li>
+                            <li><i class="fa-solid fa-check"></i> Automated Excel / HTML metric dashboard generation</li>
+                            <li><i class="fa-solid fa-check"></i> Reduced manual QA reporting time by over 80%</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Jira REST API</span>
+                            <span>Pandas</span>
+                            <span>OpenPyXL</span>
+                            <span>PyInstaller</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: AI Agent Skill & Knowledge Infrastructure (Standard Static Card) -->
+                    <div class="project-card glass-card">
+                        <div class="project-header">
+                            <span class="project-type"><i class="fa-solid fa-robot"></i> AI Engineering</span>
+                            <span class="project-badge">LLM & AI Agents</span>
+                        </div>
+                        <h3 class="project-title">AI Agent Skill & Knowledge Infrastructure</h3>
+                        <p class="project-desc">
+                            Developed and optimized modular Markdown knowledge bases, skill instruction sets, and CLI bindings for internal AI productivity agents. Enabled agents to interpret test execution logs, assist with defect triage, and execute CLI automation tasks.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fa-solid fa-check"></i> Markdown (MD) & YAML skill configurations</li>
+                            <li><i class="fa-solid fa-check"></i> CLI tool binding for autonomous agent workflow execution</li>
+                            <li><i class="fa-solid fa-check"></i> AI-assisted dev via GitHub Copilot & Anthropic Claude</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Markdown</span>
+                            <span>YAML</span>
+                            <span>CLI Integration</span>
+                            <span>Claude AI</span>
+                            <span>GitHub Copilot</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Spot Award -->
+        <section class="section awards-section" id="awards">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">HONORS & RECOGNITION</span>
+                    <h2 class="section-title">Awards & Achievements</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="awards-grid">
+                    
+                    <div class="award-card glass-card highlight-award">
+                        <div class="award-badge"><i class="fa-solid fa-award"></i> Deloitte Spot Award</div>
+                        <h3 class="award-title">Spot Award — QA Documentation & Reporting Automation</h3>
+                        <span class="award-issuer"><i class="fa-solid fa-building"></i> Deloitte USI</span>
+                        <p class="award-desc">
+                            Received the prestigious Deloitte Spot Award for conceptualizing, developing, and deploying custom Python productivity utilities (<code>SnipToDoc</code> and Jira Automation Reporter). These tools automated manual screenshot evidence capture and executive QA reporting, significantly accelerating team productivity and defect retesting cycles.
+                        </p>
+                    </div>
+
+                    <div class="award-card glass-card">
+                        <div class="award-badge"><i class="fa-solid fa-bolt"></i> Speed Optimization Milestone</div>
+                        <h3 class="award-title">65% Regression Execution Cycle Speedup</h3>
+                        <span class="award-issuer"><i class="fa-solid fa-building"></i> Cognizant Technology Solutions</span>
+                        <p class="award-desc">
+                            Redesigned legacy test scripts into a modular Page Object Model (POM) hybrid framework integrated with Jenkins nightly builds and Selenium Grid, reducing overall regression execution time by 65% with zero downtime.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">ACADEMIC BACKGROUND</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="education-card glass-card">
+                    <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="edu-details">
+                        <h3 class="degree-title">Bachelor of Engineering (B.E.) — Automobile Engineering</h3>
+                        <h4 class="institute-name">Mahalingam College of Engineering and Technology, Pollachi</h4>
+                        <span class="edu-date"><i class="fa-regular fa-calendar-days"></i> 2019 – 2023</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">GET IN TOUCH</span>
+                    <h2 class="section-title">Connect & Collaborate</h2>
+                    <p class="section-desc">Interested in test automation framework architecture, AI agent tooling, or QA consultation? Let's connect!</p>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="contact-wrapper grid-2">
+                    <div class="contact-info-card glass-card">
+                        <h3>Contact Details</h3>
+                        <p>Feel free to reach out via email or LinkedIn for opportunities, collaboration, or technical discussions.</p>
+                        
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="item-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span class="item-label">Email Address</span>
+                                    <div class="copy-email-group">
+                                        <a href="mailto:thuvarak3345@gmail.com" class="item-value">thuvarak3345@gmail.com</a>
+                                        <button class="btn-copy-email" id="btn-copy-email" onclick="copyEmailToClipboard()" title="Copy Email">
+                                            <i class="fa-regular fa-copy"></i>
+                                        </button>
+                                    </div>
+                                    <span class="copy-feedback" id="copy-feedback">Email copied to clipboard!</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="item-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div>
+                                    <span class="item-label">LinkedIn</span>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="item-value">linkedin.com/in/thuvaraga-pandi</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="item-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <span class="item-label">Current Location</span>
+                                    <span class="item-value">Bengaluru, Karnataka, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="privacy-note">
+                            <i class="fa-solid fa-user-shield"></i>
+                            <span>Professional inquiries welcome via Email and LinkedIn.</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card glass-card">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" onsubmit="handleFormSubmit(event)">
+                            <div class="form-group">
+                                <label for="contact-name">Your Name</label>
+                                <input type="text" id="contact-name" class="form-control" placeholder="e.g. Sarah Jenkins" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Your Email</label>
+                                <input type="email" id="contact-email" class="form-control" placeholder="e.g. sarah@company.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-subject">Subject</label>
+                                <input type="text" id="contact-subject" class="form-control" placeholder="SDET Opportunity / Collaboration" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-msg">Message</label>
+                                <textarea id="contact-msg" rows="4" class="form-control" placeholder="Hi Thuvaraga, I saw your portfolio and..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                        <div class="form-response" id="form-response"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <a href="#hero" class="brand-logo">
+                    <span class="logo-code">&lt;TP /&gt;</span>
+                    <span class="logo-name">Thuvaraga Pandi</span>
+                </a>
+                <p>SDET 1 & Automation Test Engineer &bull; Deloitte USI</p>
+            </div>
+            
+            <div class="footer-center">
+                <p>&copy; 2026 Thuvaraga Pandi. Built with modern web design & test automation spirit.</p>
+            </div>
+
+            <div class="footer-right">
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:thuvarak3345@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
